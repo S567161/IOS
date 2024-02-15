@@ -1,0 +1,654 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		72A469252B6B024300CB7448 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A469242B6B024300CB7448 /* AppDelegate.swift */; };
+		72A469272B6B024300CB7448 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A469262B6B024300CB7448 /* SceneDelegate.swift */; };
+		72A469292B6B024300CB7448 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A469282B6B024300CB7448 /* ViewController.swift */; };
+		72A4692C2B6B024300CB7448 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72A4692A2B6B024300CB7448 /* Main.storyboard */; };
+		72A4692E2B6B024400CB7448 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72A4692D2B6B024400CB7448 /* Assets.xcassets */; };
+		72A469312B6B024400CB7448 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72A4692F2B6B024400CB7448 /* LaunchScreen.storyboard */; };
+		72A4693C2B6B024400CB7448 /* DevarapallyAlphaNumericFunAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A4693B2B6B024400CB7448 /* DevarapallyAlphaNumericFunAppTests.swift */; };
+		72A469462B6B024400CB7448 /* DevarapallyAlphaNumericFunAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A469452B6B024400CB7448 /* DevarapallyAlphaNumericFunAppUITests.swift */; };
+		72A469482B6B024400CB7448 /* DevarapallyAlphaNumericFunAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A469472B6B024400CB7448 /* DevarapallyAlphaNumericFunAppUITestsLaunchTests.swift */; };
+		72A469552B6B2ECD00CB7448 /* AlphaNumericFunVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A469542B6B2ECD00CB7448 /* AlphaNumericFunVCViewController.swift */; };
+		72A469582B6B30B600CB7448 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 72A469572B6B30B600CB7448 /* Lottie */; };
+		72A4695B2B6B363300CB7448 /* AnimatedGradientView in Frameworks */ = {isa = PBXBuildFile; productRef = 72A4695A2B6B363300CB7448 /* AnimatedGradientView */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		72A469382B6B024400CB7448 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 72A469192B6B024300CB7448 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 72A469202B6B024300CB7448;
+			remoteInfo = DevarapallyAlphaNumericFunApp;
+		};
+		72A469422B6B024400CB7448 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 72A469192B6B024300CB7448 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 72A469202B6B024300CB7448;
+			remoteInfo = DevarapallyAlphaNumericFunApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		72A469212B6B024300CB7448 /* DevarapallyAlphaNumericFunApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DevarapallyAlphaNumericFunApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		72A469242B6B024300CB7448 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		72A469262B6B024300CB7448 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		72A469282B6B024300CB7448 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		72A4692B2B6B024300CB7448 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		72A4692D2B6B024400CB7448 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		72A469302B6B024400CB7448 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		72A469322B6B024400CB7448 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72A469372B6B024400CB7448 /* DevarapallyAlphaNumericFunAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DevarapallyAlphaNumericFunAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		72A4693B2B6B024400CB7448 /* DevarapallyAlphaNumericFunAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevarapallyAlphaNumericFunAppTests.swift; sourceTree = "<group>"; };
+		72A469412B6B024400CB7448 /* DevarapallyAlphaNumericFunAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DevarapallyAlphaNumericFunAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		72A469452B6B024400CB7448 /* DevarapallyAlphaNumericFunAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevarapallyAlphaNumericFunAppUITests.swift; sourceTree = "<group>"; };
+		72A469472B6B024400CB7448 /* DevarapallyAlphaNumericFunAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevarapallyAlphaNumericFunAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		72A469542B6B2ECD00CB7448 /* AlphaNumericFunVCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlphaNumericFunVCViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		72A4691E2B6B024300CB7448 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72A4695B2B6B363300CB7448 /* AnimatedGradientView in Frameworks */,
+				72A469582B6B30B600CB7448 /* Lottie in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72A469342B6B024400CB7448 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72A4693E2B6B024400CB7448 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		72A469182B6B024300CB7448 = {
+			isa = PBXGroup;
+			children = (
+				72A469232B6B024300CB7448 /* DevarapallyAlphaNumericFunApp */,
+				72A4693A2B6B024400CB7448 /* DevarapallyAlphaNumericFunAppTests */,
+				72A469442B6B024400CB7448 /* DevarapallyAlphaNumericFunAppUITests */,
+				72A469222B6B024300CB7448 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		72A469222B6B024300CB7448 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				72A469212B6B024300CB7448 /* DevarapallyAlphaNumericFunApp.app */,
+				72A469372B6B024400CB7448 /* DevarapallyAlphaNumericFunAppTests.xctest */,
+				72A469412B6B024400CB7448 /* DevarapallyAlphaNumericFunAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		72A469232B6B024300CB7448 /* DevarapallyAlphaNumericFunApp */ = {
+			isa = PBXGroup;
+			children = (
+				72A469242B6B024300CB7448 /* AppDelegate.swift */,
+				72A469262B6B024300CB7448 /* SceneDelegate.swift */,
+				72A469282B6B024300CB7448 /* ViewController.swift */,
+				72A469542B6B2ECD00CB7448 /* AlphaNumericFunVCViewController.swift */,
+				72A4692A2B6B024300CB7448 /* Main.storyboard */,
+				72A4692D2B6B024400CB7448 /* Assets.xcassets */,
+				72A4692F2B6B024400CB7448 /* LaunchScreen.storyboard */,
+				72A469322B6B024400CB7448 /* Info.plist */,
+			);
+			path = DevarapallyAlphaNumericFunApp;
+			sourceTree = "<group>";
+		};
+		72A4693A2B6B024400CB7448 /* DevarapallyAlphaNumericFunAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				72A4693B2B6B024400CB7448 /* DevarapallyAlphaNumericFunAppTests.swift */,
+			);
+			path = DevarapallyAlphaNumericFunAppTests;
+			sourceTree = "<group>";
+		};
+		72A469442B6B024400CB7448 /* DevarapallyAlphaNumericFunAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				72A469452B6B024400CB7448 /* DevarapallyAlphaNumericFunAppUITests.swift */,
+				72A469472B6B024400CB7448 /* DevarapallyAlphaNumericFunAppUITestsLaunchTests.swift */,
+			);
+			path = DevarapallyAlphaNumericFunAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		72A469202B6B024300CB7448 /* DevarapallyAlphaNumericFunApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72A4694B2B6B024400CB7448 /* Build configuration list for PBXNativeTarget "DevarapallyAlphaNumericFunApp" */;
+			buildPhases = (
+				72A4691D2B6B024300CB7448 /* Sources */,
+				72A4691E2B6B024300CB7448 /* Frameworks */,
+				72A4691F2B6B024300CB7448 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DevarapallyAlphaNumericFunApp;
+			packageProductDependencies = (
+				72A469572B6B30B600CB7448 /* Lottie */,
+				72A4695A2B6B363300CB7448 /* AnimatedGradientView */,
+			);
+			productName = DevarapallyAlphaNumericFunApp;
+			productReference = 72A469212B6B024300CB7448 /* DevarapallyAlphaNumericFunApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		72A469362B6B024400CB7448 /* DevarapallyAlphaNumericFunAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72A4694E2B6B024400CB7448 /* Build configuration list for PBXNativeTarget "DevarapallyAlphaNumericFunAppTests" */;
+			buildPhases = (
+				72A469332B6B024400CB7448 /* Sources */,
+				72A469342B6B024400CB7448 /* Frameworks */,
+				72A469352B6B024400CB7448 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				72A469392B6B024400CB7448 /* PBXTargetDependency */,
+			);
+			name = DevarapallyAlphaNumericFunAppTests;
+			productName = DevarapallyAlphaNumericFunAppTests;
+			productReference = 72A469372B6B024400CB7448 /* DevarapallyAlphaNumericFunAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		72A469402B6B024400CB7448 /* DevarapallyAlphaNumericFunAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72A469512B6B024400CB7448 /* Build configuration list for PBXNativeTarget "DevarapallyAlphaNumericFunAppUITests" */;
+			buildPhases = (
+				72A4693D2B6B024400CB7448 /* Sources */,
+				72A4693E2B6B024400CB7448 /* Frameworks */,
+				72A4693F2B6B024400CB7448 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				72A469432B6B024400CB7448 /* PBXTargetDependency */,
+			);
+			name = DevarapallyAlphaNumericFunAppUITests;
+			productName = DevarapallyAlphaNumericFunAppUITests;
+			productReference = 72A469412B6B024400CB7448 /* DevarapallyAlphaNumericFunAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		72A469192B6B024300CB7448 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					72A469202B6B024300CB7448 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					72A469362B6B024400CB7448 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 72A469202B6B024300CB7448;
+					};
+					72A469402B6B024400CB7448 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 72A469202B6B024300CB7448;
+					};
+				};
+			};
+			buildConfigurationList = 72A4691C2B6B024300CB7448 /* Build configuration list for PBXProject "DevarapallyAlphaNumericFunApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 72A469182B6B024300CB7448;
+			packageReferences = (
+				72A469562B6B30B600CB7448 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+				72A469592B6B363300CB7448 /* XCRemoteSwiftPackageReference "AnimatedGradientView" */,
+			);
+			productRefGroup = 72A469222B6B024300CB7448 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				72A469202B6B024300CB7448 /* DevarapallyAlphaNumericFunApp */,
+				72A469362B6B024400CB7448 /* DevarapallyAlphaNumericFunAppTests */,
+				72A469402B6B024400CB7448 /* DevarapallyAlphaNumericFunAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		72A4691F2B6B024300CB7448 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72A469312B6B024400CB7448 /* LaunchScreen.storyboard in Resources */,
+				72A4692E2B6B024400CB7448 /* Assets.xcassets in Resources */,
+				72A4692C2B6B024300CB7448 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72A469352B6B024400CB7448 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72A4693F2B6B024400CB7448 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		72A4691D2B6B024300CB7448 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72A469292B6B024300CB7448 /* ViewController.swift in Sources */,
+				72A469252B6B024300CB7448 /* AppDelegate.swift in Sources */,
+				72A469552B6B2ECD00CB7448 /* AlphaNumericFunVCViewController.swift in Sources */,
+				72A469272B6B024300CB7448 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72A469332B6B024400CB7448 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72A4693C2B6B024400CB7448 /* DevarapallyAlphaNumericFunAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72A4693D2B6B024400CB7448 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72A469462B6B024400CB7448 /* DevarapallyAlphaNumericFunAppUITests.swift in Sources */,
+				72A469482B6B024400CB7448 /* DevarapallyAlphaNumericFunAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		72A469392B6B024400CB7448 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 72A469202B6B024300CB7448 /* DevarapallyAlphaNumericFunApp */;
+			targetProxy = 72A469382B6B024400CB7448 /* PBXContainerItemProxy */;
+		};
+		72A469432B6B024400CB7448 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 72A469202B6B024300CB7448 /* DevarapallyAlphaNumericFunApp */;
+			targetProxy = 72A469422B6B024400CB7448 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		72A4692A2B6B024300CB7448 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72A4692B2B6B024300CB7448 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		72A4692F2B6B024400CB7448 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72A469302B6B024400CB7448 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		72A469492B6B024400CB7448 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		72A4694A2B6B024400CB7448 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		72A4694C2B6B024400CB7448 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DevarapallyAlphaNumericFunApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.nwmissouri.spring24.cs44643.sec03.DevarapallyAlphaNumericFunApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		72A4694D2B6B024400CB7448 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DevarapallyAlphaNumericFunApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.nwmissouri.spring24.cs44643.sec03.DevarapallyAlphaNumericFunApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		72A4694F2B6B024400CB7448 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.nwmissouri.spring24.cs44643.sec03.DevarapallyAlphaNumericFunAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DevarapallyAlphaNumericFunApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DevarapallyAlphaNumericFunApp";
+			};
+			name = Debug;
+		};
+		72A469502B6B024400CB7448 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.nwmissouri.spring24.cs44643.sec03.DevarapallyAlphaNumericFunAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DevarapallyAlphaNumericFunApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DevarapallyAlphaNumericFunApp";
+			};
+			name = Release;
+		};
+		72A469522B6B024400CB7448 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.nwmissouri.spring24.cs44643.sec03.DevarapallyAlphaNumericFunAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DevarapallyAlphaNumericFunApp;
+			};
+			name = Debug;
+		};
+		72A469532B6B024400CB7448 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.nwmissouri.spring24.cs44643.sec03.DevarapallyAlphaNumericFunAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DevarapallyAlphaNumericFunApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		72A4691C2B6B024300CB7448 /* Build configuration list for PBXProject "DevarapallyAlphaNumericFunApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72A469492B6B024400CB7448 /* Debug */,
+				72A4694A2B6B024400CB7448 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72A4694B2B6B024400CB7448 /* Build configuration list for PBXNativeTarget "DevarapallyAlphaNumericFunApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72A4694C2B6B024400CB7448 /* Debug */,
+				72A4694D2B6B024400CB7448 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72A4694E2B6B024400CB7448 /* Build configuration list for PBXNativeTarget "DevarapallyAlphaNumericFunAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72A4694F2B6B024400CB7448 /* Debug */,
+				72A469502B6B024400CB7448 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72A469512B6B024400CB7448 /* Build configuration list for PBXNativeTarget "DevarapallyAlphaNumericFunAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72A469522B6B024400CB7448 /* Debug */,
+				72A469532B6B024400CB7448 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		72A469562B6B30B600CB7448 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.4.0;
+			};
+		};
+		72A469592B6B363300CB7448 /* XCRemoteSwiftPackageReference "AnimatedGradientView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/rwbutler/AnimatedGradientView.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		72A469572B6B30B600CB7448 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 72A469562B6B30B600CB7448 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+		72A4695A2B6B363300CB7448 /* AnimatedGradientView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 72A469592B6B363300CB7448 /* XCRemoteSwiftPackageReference "AnimatedGradientView" */;
+			productName = AnimatedGradientView;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 72A469192B6B024300CB7448 /* Project object */;
+}

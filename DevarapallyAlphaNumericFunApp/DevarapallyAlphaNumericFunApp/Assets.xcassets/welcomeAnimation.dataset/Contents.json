@@ -1,0 +1,12 @@
+{
+  "data" : [
+    {
+      "filename" : "welcomeAnimation.json",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
